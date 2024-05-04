@@ -1,0 +1,124 @@
+:root {
+    font-size: 1rem;
+   }
+   
+   body {
+    font-family: "Arial", sans-serif;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen; 
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .container {
+    max-width: 37.5rem;
+    margin: 3.125rem auto;
+    padding: 1.25rem;
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.625rem rgba(0, 0, 0, 0.1);
+   }
+   
+   h1 {
+    text-align: center;
+   
+    color: #333333;
+   
+    font-size: 1.5rem;
+   }
+   
+   #task-form {
+    display: flex;
+   
+    justify-content: space-between;
+   
+    margin-bottom: 1.25rem;
+   }
+   
+   #task-form input {
+    flex: 1;
+   
+    padding: 0.625rem;
+   
+    border: 0.0625rem solid #cccccc;
+   
+    border-radius: 0.3125rem;
+   
+    margin-right: 0.625rem;
+   }
+   
+   #task-form button {
+    padding: 0.625rem 1.25rem;
+   
+    background-color: cyan;
+   
+    color: white;
+   
+    border: none;
+   
+    border-radius: 0.3125rem;
+   
+    cursor: pointer;
+   
+    transition: background-color 0.3s;
+   }
+   
+   #task-form button:hover {
+    color: #333;
+   }
+   
+   #task-list {
+    list-style: none;
+    padding: 0;
+   }
+   
+   #task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625rem;
+    border-bottom: 0.0625rem solid #929292;
+    transition: background-color 0.3s;
+    margin: 0.7rem;
+    color: #000;
+    transition: all 1s ease;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+   }
+   
+   #task-list li:hover {
+    background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+   }
+   
+   .task-info {
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    
+   }
+   
+   .task-info span {
+    margin-right: 0.625rem;
+   }
+   
+   .task-buttons {
+    display: flex;
+   }
+   
+   .task-buttons button {
+    border: none;
+    background: cyan;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 0.3rem 0.6rem;
+    transition: color 0.3s;
+    margin: 0.3rem;
+   }
+   
+   .task-buttons button:hover {
+    color: #333333;
+   }
+   
